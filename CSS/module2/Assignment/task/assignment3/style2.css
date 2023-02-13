@@ -1,0 +1,106 @@
+.container{
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 15% 1fr;
+    margin-top: 3%;
+}
+
+.leftside{
+    
+    grid-area: left;
+    display: grid;
+    grid-template-areas:'public'
+                        'link'
+                        'view'
+                        'link1'
+                        'hr'
+                        'link2'
+                        'network'
+                        'link3';
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 60px 40px 125px 40px 60px 40px 60px;
+    padding: 10px;
+}
+.details{
+    border: 2px solid black;
+    grid-area: right;
+    margin: 20px 50px 20px 150px;
+    display: grid;
+    grid-template-areas:"det det det"
+                        "name name1 name2"
+                        "name3 name4 name5";
+    grid-template-rows: 60px auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.det{
+    grid-area: det;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    
+    
+}
+.public{
+    grid-area: public;
+    background-color: black;
+    border-radius: 3px;
+    padding-left: 10px;
+    
+
+}
+.link{
+    grid-area: link;
+}
+.view{
+    grid-area: view;
+    background-color: black;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.link1
+{
+    grid-area: link1;
+}
+.hr{
+    grid-area: hr;
+    background-color: black;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.link2{
+    grid-area: link2;
+}
+.network{
+    grid-area: network;
+    background-color: black;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.leftside h3{
+    color: white;
+}
+
+
+.name{
+    grid-area: name;
+    padding-left: 15px;
+}
+.name1{
+    grid-area: name1;
+}
+.name2{
+    grid-area: name2;
+}
+.name3{
+    grid-area:name3;
+    padding-left: 15px;
+}
+.name4{
+    grid-area:name4;
+}
+.name5{
+    grid-area: name5;
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../assignment51.css">
+    <title>HTML</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="img"><div class="i"><img src="../../../logo.png" alt=""></div></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="../../../home.html">Home</a></li>
+                    <li><a href="../../index.html">HTML</a></li>
+                    <li><a href="../../../Css/index.html">CSS</a></li>
+                    <li><a href="">Bootstrap</a></li>
+                    <li><a href="">JavaScript</a></li>
+                    <li><a href="">Jquery</a></li>
+                    <li><a href="">Mini-Project</a></li>
+                    <li><a href="">SQL</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="leftbar">
+            <details>
+                <summary style="list-style-type: disc;">Day 3</summary>
+                <details>
+                    <summary class="assign">Assignment</summary>
+                    <ul class="a1">
+                        <li><a href="../Assignment/Assignment1.html">assignment1</a></li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary class="assign">Practice</summary>
+                    <ul class="a1">
+                        <li><a href="../Practice/Practice1.html">Practice 1</a></li>
+                        <li style="margin-top: 8px;"><a href="../Practice/Practice2.html">Practice 2</a></li>
+                    </ul>
+                </details>
+                
+            </details>
+        </div>
+
+        <div class="empform">
+            <div class="heading"><h1>Employee Details</h1></div>
+            <div class="form">
+            <form>
+                <label >First Name</label>
+                <input type="text" placeholder="name.." required>
+            
+                <label >Age:</label>
+                <input type="number" placeholder="age.." required>
+
+                <label>Gender:</label>&nbsp;&nbsp;
+                <label>Male<input type="radio" name="gender" value="Male" required/></label>
+                <label>Female<input type="radio" name="gender" value="Female" required/></label>
+                <br><br>
+                
+                <label>Designation:</label>
+                <input type="text" placeholder=" Designation.." required/>
+                
+                <label>Salary:</label>
+                <input type="number" placeholder="Salary.." required/>
+                
+                <label>Location:</label>
+                <select required>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Bharuch">Bharuch</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Mehsana">Mehsana</option>
+                </select>
+                
+                <label>Emailid:</label>
+                <input type="email" placeholder="Enter Email" required/>
+                
+                <label>Date Of Joining:</label>
+                <input type="date"  required/>
+                
+                <label>Contact Number:</label>
+                <input type="number" placeholder="Enter Number" maxlength="10" minlength="1" required/>
+                
+                <input type="submit" value="Submit">
+            
+            </form>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
